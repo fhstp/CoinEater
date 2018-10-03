@@ -1,9 +1,9 @@
 /**
- * No Coin - Stop coin miners in your browser
+ * MiningHunter - Protect against cryptojacking based on modern research
  **
- * @author      Rafael Keramidas <ker.af>
+ * @author      Institute of IT Security Research
  * @license     MIT
- * @source      https://github.com/keraf/NoCoin
+ * @source      https://github.com/fhstp/MiningHunter
  */
 
 // Config
@@ -42,7 +42,7 @@ const changeToggleIcon = (isEnabled) => {
 
 const getDomain = (url) => {
     const match = url.match(/:\/\/(.[^/]+)/);
-    
+
     return match ? match[1] : '';
 };
 
@@ -93,14 +93,14 @@ const removeDomainFromWhitelist = (domain) => {
 };
 
 const runBlocker = (blacklist) => {
-    const blacklistedUrls = blacklist.split('\n');
+    const blacklistedUrls = blacklist.split('\n').filter(Boolean);
 
     chrome.webRequest.onBeforeRequest.addListener(details => {
         chrome.browserAction.setBadgeBackgroundColor({
             color: [200, 0, 0, 100],
             tabId: details.tabId,
         });
-        
+
         chrome.browserAction.setBadgeText({
             text: '!',
             tabId: details.tabId,
@@ -129,7 +129,7 @@ const runBlocker = (blacklist) => {
         });
 
         return { cancel: true };
-    }, { 
+    }, {
         urls: blacklistedUrls
     }, ['blocking']);
 };
@@ -148,7 +148,7 @@ const runFallbackBlocker = () => {
 // Updating domain for synchronous checking in onBeforeRequest
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     domains[tabId] = getDomain(tab.url);
-    
+
     // Set back to normal when navigating
     if (changeInfo === 'loading') {
         if (config.toggle) {
@@ -159,7 +159,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
         }
 
         detected[details.tabId] = false;
-    
+
         chrome.browserAction.setBadgeText({
             text: '',
             tabId,
@@ -177,7 +177,11 @@ if (!config.toggle) {
 }
 
 // Load the blacklist and run the blocker
-const blacklist = 'https://raw.githubusercontent.com/keraf/NoCoin/master/src/blacklist.txt';
+const blacklist = 'https://github.com/fhstp/MiningHunter/master/src/blacklist.txt';
+// fetch(chrome.runtime.getURL('blacklist.txt'))
+//     .then(resp => {
+//         resp.text().then(text => runBlocker(text));
+//     });
 fetch(blacklist)
     .then(resp => {
         if (resp.status !== 200) {

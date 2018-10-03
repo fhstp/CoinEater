@@ -1,11 +1,11 @@
 /**
- * No Coin - Stop coin miners in your browser
+ * MiningHunter - Protect against cryptojacking based on modern research
  **
- * @author      Rafael Keramidas <ker.af>
+ * @author      Institute of IT Security Research
  * @license     MIT
- * @source      https://github.com/keraf/NoCoin
+ * @source      https://github.com/fhstp/MiningHunter
  */
-    
+
 let currentTabId = 0;
 let whitelisted = false;
 let domain = '';
@@ -19,7 +19,7 @@ const setToggleButton = (isEnabled) => {
 
     toggleClassVisible('whitelisting', isEnabled);
 
-    element.innerText = `${isEnabled ? 'Pause' : 'Resume' } No Coin`;
+    element.innerText = `${isEnabled ? 'Pause' : 'Resume' } MiningHunter`;
 };
 
 const toggleClassVisible = (className, isVisible) => {
@@ -31,7 +31,7 @@ const toggleClassVisible = (className, isVisible) => {
 
 const setWhitelistDisplay = (isWhitelisted) => {
     whitelisted = isWhitelisted;
-    
+
     document.querySelector('.whitelisted').innerHTML = `<b>${domain}</b> is currently white listed.`
 
     toggleClassVisible('dropdown', !isWhitelisted);
@@ -49,8 +49,8 @@ const setVersion = (version) => {
 };
 
 const sendWhitelistUpdate = (time) => {
-    chrome.runtime.sendMessage({ 
-        type: 'WHITELIST', 
+    chrome.runtime.sendMessage({
+        type: 'WHITELIST',
         time: time,
         tabId: currentTabId,
         whitelisted,
@@ -75,7 +75,7 @@ document.querySelector('.whitelist').addEventListener('click', () => {
 });
 
 // Un-whitelist button
-document.querySelector('.unwhitelist').addEventListener('click', () => {    
+document.querySelector('.unwhitelist').addEventListener('click', () => {
     sendWhitelistUpdate();
 });
 

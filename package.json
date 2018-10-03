@@ -1,17 +1,17 @@
 {
-  "name": "no-coin",
-  "version": "0.4.14",
-  "description": "Block coin miners on the web!",
+  "name": "MiningHunter",
+  "version": "0.1.0",
+  "description": "Protect against cryptojacking based on modern research.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keraf/NoCoin.git"
+    "url": "git+https://github.com/fhstp/MiningHunter.git"
   },
-  "author": "Rafael Keramidas",
+  "author": "Institute of IT Security Research",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/keraf/NoCoin/issues"
+    "url": "https://github.com/fhstp/MiningHunter/issues"
   },
-  "homepage": "https://github.com/keraf/NoCoin#readme",
+  "homepage": "https://github.com/fhstp/MiningHunter#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",

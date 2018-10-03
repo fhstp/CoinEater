@@ -1,7 +1,7 @@
 {
-    "name": "No Coin - Block miners on the web!",
-    "description": "Block coin miners using your computer ressources without your consent.",
-    "version": "0.0.0",
+    "name": "MiningHunter",
+    "description": "Protect against cryptojacking based on modern research.",
+    "version": "0.1.0",
     "permissions": [
         "activeTab",
         "tabs",
@@ -17,12 +17,12 @@
         "128": "img/logo_enabled.png"
     },
     "browser_action": {
-        "default_title": "No Coin",
+        "default_title": "MiningHunter",
         "default_icon": {
             "128": "img/logo_enabled.png"
         },
         "default_popup": "view/popup.html"
     },
     "manifest_version": 2,
-    "author": "Rafael Keramidas"
+    "author": "Institute of IT Security Research"
 }
