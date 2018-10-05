@@ -1,17 +1,17 @@
 {
-  "name": "MiningHunter",
+  "name": "CoinEater",
   "version": "0.1.0",
   "description": "Protect against cryptojacking based on modern research.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fhstp/MiningHunter.git"
+    "url": "git+https://github.com/fhstp/CoinEater.git"
   },
   "author": "Institute of IT Security Research",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fhstp/MiningHunter/issues"
+    "url": "https://github.com/fhstp/CoinEater/issues"
   },
-  "homepage": "https://github.com/fhstp/MiningHunter#readme",
+  "homepage": "https://github.com/fhstp/CoinEater#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",

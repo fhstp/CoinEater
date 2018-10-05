@@ -1,5 +1,5 @@
 {
-    "name": "MiningHunter",
+    "name": "CoinEater",
     "description": "Protect against cryptojacking based on modern research.",
     "version": "0.1.0",
     "permissions": [
@@ -17,7 +17,7 @@
         "128": "img/logo_enabled.png"
     },
     "browser_action": {
-        "default_title": "MiningHunter",
+        "default_title": "CoinEater",
         "default_icon": {
             "128": "img/logo_enabled.png"
         },

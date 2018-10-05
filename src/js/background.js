@@ -1,9 +1,9 @@
 /**
- * MiningHunter - Protect against cryptojacking based on modern research
+ * CoinEater - Protect against cryptojacking based on modern research
  **
  * @author      Institute of IT Security Research
  * @license     MIT
- * @source      https://github.com/fhstp/MiningHunter
+ * @source      https://github.com/fhstp/CoinEater
  */
 
 // Config
@@ -177,7 +177,7 @@ if (!config.toggle) {
 }
 
 // Load the blacklist and run the blocker
-const blacklist = 'https://raw.githubusercontent.com/fhstp/MiningHunter/master/src/blacklist.txt';
+const blacklist = 'https://raw.githubusercontent.com/fhstp/CoinEater/master/src/blacklist.txt';
 // fetch(chrome.runtime.getURL('blacklist.txt'))
 //     .then(resp => {
 //         resp.text().then(text => runBlocker(text));
