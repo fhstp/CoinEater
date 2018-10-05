@@ -25,8 +25,8 @@ gulp.task('build:clean', () => {
 // Copy files to build folder
 gulp.task('build:copy', () => {
     return gulp.src([
-        `${srcFolder}/**/*`, 
-        `!${srcFolder}/**/*.js`, 
+        `${srcFolder}/**/*`,
+        `!${srcFolder}/**/*.js`,
         `!${srcFolder}/**/*.css`,
         `!${srcFolder}/view/background.html`,
         `!${srcFolder}/manifest.json`])
@@ -53,7 +53,7 @@ gulp.task('build:manifest-ff', () => {
             'version': package.version,
             'applications': {
                 'gecko': {
-                    'id': '{5657c026-efc3-4860-b43b-16e4eaa8a9aa}',
+                    'id': '{6abb757c-d119-4dca-9d11-1f701f08e008}',
                 },
             },
         }))
@@ -103,14 +103,14 @@ gulp.task('build:css', () => {
 // Zip it for FF
 gulp.task('pack:firefox', () => {
     return gulp.src(`${buildFolder}/**/*`)
-        .pipe(zip(`nocoin-${package.version}.xpi`))
+        .pipe(zip(`coineater-${package.version}.xpi`))
         .pipe(gulp.dest('./dist/firefox'));
 });
 
 // Zip it for Chrome
 gulp.task('pack:chrome', () => {
     return gulp.src(`${buildFolder}/**/*`)
-        .pipe(zip(`nocoin-${package.version}.zip`))
+        .pipe(zip(`coineater-${package.version}.zip`))
         .pipe(gulp.dest('./dist/chrome'));
 });
 
@@ -119,8 +119,8 @@ gulp.task('pack:chromium', () => {
     return gulp.src(`${buildFolder}`)
         .pipe(crx({
             privateKey: fs.readFileSync('./certs/key.pem', 'utf8'),
-            filename: `nocoin-${package.version}.crx`,
-            codebase: 'https://nocoin.ker.af/',
+            filename: `coineater-${package.version}.crx`,
+            codebase: 'https://github.com/fhstp/CoinEater',
             updateXmlFilename: 'update.xml'
         }))
         .pipe(gulp.dest('./dist/chromium'));
