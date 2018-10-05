@@ -177,7 +177,7 @@ if (!config.toggle) {
 }
 
 // Load the blacklist and run the blocker
-const blacklist = 'https://github.com/fhstp/MiningHunter/master/src/blacklist.txt';
+const blacklist = 'https://raw.githubusercontent.com/fhstp/MiningHunter/master/src/blacklist.txt';
 // fetch(chrome.runtime.getURL('blacklist.txt'))
 //     .then(resp => {
 //         resp.text().then(text => runBlocker(text));
