@@ -1,6 +1,6 @@
 {
   "name": "CoinEater",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Protect against cryptojacking based on modern research.",
   "repository": {
     "type": "git",
