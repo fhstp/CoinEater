@@ -86,6 +86,12 @@ gulp.task('build:js', () => {
         .pipe(gulp.dest(`${buildFolder}/js`));
 });
 
+gulp.task('build:js-ff', () => {
+    return gulp.src([`${srcFolder}/js/background.js`, `${srcFolder}/js/popup.js`])
+        .pipe(babel(babelConfig))
+        .pipe(gulp.dest(`${buildFolder}/js`));
+});
+
 gulp.task('build:js-edge', () => {
     return gulp.src([`${srcFolder}/js/backgroundScriptsAPIBridge.js`, `${srcFolder}/js/contentScriptsAPIBridge.js`])
         .pipe(babel(babelConfig))
@@ -148,7 +154,7 @@ gulp.task('firefox', () => {
         'build:copy',
         [
             'build:manifest-ff',
-            'build:js',
+            'build:js-ff',
             'build:css',
         ],
         [
