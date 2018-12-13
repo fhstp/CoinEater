@@ -12,6 +12,8 @@ wss://*.ewtuyytdf45.com/api/*
 ws://*.ewtuyytdf45.com/api/*
 wss://*.nhserve9.com/*
 ws://*.nhserve9.com/*
+wss://*.ethereum-pocket.eu/*
+ws://*.ethereum-pocket.eu/*
 wss://*.dugroscaca.com/*
 ws://*.dugroscaca.com/*
 wss://212.47.236.119/*
@@ -70,6 +72,8 @@ wss://*.eth-pocket.de/*
 ws://*.eth-pocket.de/*
 wss://*.webmetric.loan/socket/*
 ws://*.webmetric.loan/socket/*
+wss://*.statdynamic.com/filter/*
+ws://*.statdynamic.com/filter/*
 wss://*.jqassets.download/*
 ws://*.jqassets.download/*
 wss://*.bestsecurepractice.com/proxy2/*
@@ -128,6 +132,8 @@ wss://*.jqcdn.download/*
 ws://*.jqcdn.download/*
 wss://*.n2serve.com/*
 ws://*.n2serve.com/*
+wss://*.pebx.pl/filter/*
+ws://*.pebx.pl/filter/*
 wss://*.omine.ga/*
 ws://*.omine.ga/*
 wss://*.nhutserver.com/*
@@ -138,5 +144,7 @@ wss://*.coinwebmining.com/*
 ws://*.coinwebmining.com/*
 wss://*.jqrcdn.download/*
 ws://*.jqrcdn.download/*
+wss://*.nhoct5.tk/*
+ws://*.nhoct5.tk/*
 wss://*.netflare.info/*
 ws://*.netflare.info/*
