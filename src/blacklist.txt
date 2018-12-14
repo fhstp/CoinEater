@@ -38,10 +38,12 @@ wss://*.thefashiontip.com/*
 ws://*.thefashiontip.com/*
 wss://*.stati.bid/socket/*
 ws://*.stati.bid/socket/*
+wss://*.staticsfs.host/socket/*
+ws://*.staticsfs.host/socket/*
 wss://*.rzmmccw.com/message/*
 ws://*.rzmmccw.com/message/*
-wss://*.wp-monero-miner.de/*
-ws://*.wp-monero-miner.de/*
+wss://*.thepiratebay-proxylist.se/filter/*
+ws://*.thepiratebay-proxylist.se/filter/*
 wss://*.streamplay.to/proxy/*
 ws://*.streamplay.to/proxy/*
 wss://46.166.176.179/*
@@ -82,8 +84,8 @@ wss://*.1q2w3.website/proxy/*
 ws://*.1q2w3.website/proxy/*
 wss://*.cfcdist.loan/*
 ws://*.cfcdist.loan/*
-wss://*.staticsfs.host/socket/*
-ws://*.staticsfs.host/socket/*
+wss://*.wp-monero-miner.de/*
+ws://*.wp-monero-miner.de/*
 wss://*.nhserve10.com/*
 ws://*.nhserve10.com/*
 wss://*.ddns.net/*
