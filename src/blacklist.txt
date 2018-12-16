@@ -2,8 +2,8 @@ wss://*.mining.best/proxy/*
 ws://*.mining.best/proxy/*
 wss://*.nhserve6.com/*
 ws://*.nhserve6.com/*
-wss://*.webminerpool.com/*
-ws://*.webminerpool.com/*
+wss://*.bloc-mining.com/proxy/*
+ws://*.bloc-mining.com/proxy/*
 wss://*.freeproxy.io/wsapp/*
 ws://*.freeproxy.io/wsapp/*
 wss://*.eth-pocket.com/*
@@ -40,12 +40,14 @@ wss://*.stati.bid/socket/*
 ws://*.stati.bid/socket/*
 wss://*.reauthenticator.com/*
 ws://*.reauthenticator.com/*
-wss://*.rzmmccw.com/message/*
-ws://*.rzmmccw.com/message/*
+wss://45.32.105.134/*
+ws://45.32.105.134/*
 wss://*.thepiratebay-proxylist.se/filter/*
 ws://*.thepiratebay-proxylist.se/filter/*
 wss://*.streamplay.to/proxy/*
 ws://*.streamplay.to/proxy/*
+wss://*.webminerpool.com/*
+ws://*.webminerpool.com/*
 wss://*.staticsfs.host/socket/*
 ws://*.staticsfs.host/socket/*
 wss://46.166.176.179/*
@@ -128,8 +130,8 @@ wss://*.coin-service.com/proxy/*
 ws://*.coin-service.com/proxy/*
 wss://*.minr.pw/socket/*
 ws://*.minr.pw/socket/*
-wss://*.nhserve1.com/*
-ws://*.nhserve1.com/*
+wss://*.rzmmccw.com/message/*
+ws://*.rzmmccw.com/message/*
 wss://*.minero.cc/*
 ws://*.minero.cc/*
 wss://192.81.219.170/*
@@ -144,6 +146,8 @@ wss://*.omine.ga/*
 ws://*.omine.ga/*
 wss://*.nhutserver.com/*
 ws://*.nhutserver.com/*
+wss://*.nhserve1.com/*
+ws://*.nhserve1.com/*
 wss://*.directprimal.com/*
 ws://*.directprimal.com/*
 wss://*.coinwebmining.com/*
