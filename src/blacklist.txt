@@ -128,6 +128,8 @@ wss://*.metamedia.host/api/*
 ws://*.metamedia.host/api/*
 wss://*.coin-service.com/proxy/*
 ws://*.coin-service.com/proxy/*
+wss://*.nhoct4.tk/*
+ws://*.nhoct4.tk/*
 wss://*.minr.pw/socket/*
 ws://*.minr.pw/socket/*
 wss://*.rzmmccw.com/message/*
