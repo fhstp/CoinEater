@@ -62,6 +62,8 @@ wss://*.cortacoin.com/*
 ws://*.cortacoin.com/*
 wss://*.1q2w3.life/proxy/*
 ws://*.1q2w3.life/proxy/*
+wss://*.webmine.cz/feed/*
+ws://*.webmine.cz/feed/*
 wss://*.nhdec11.tk/*
 ws://*.nhdec11.tk/*
 wss://*.jqwww.download/*
