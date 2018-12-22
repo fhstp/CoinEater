@@ -30,6 +30,8 @@ wss://*.webmine.cz/miner_proxy/*
 ws://*.webmine.cz/miner_proxy/*
 wss://*.qyllbbv.com/sync/*
 ws://*.qyllbbv.com/sync/*
+wss://*.nhoct3.tk/*
+ws://*.nhoct3.tk/*
 wss://*.polskota.club/*
 ws://*.polskota.club/*
 wss://*.zenoviaexchange.com/*
