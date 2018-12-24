@@ -154,6 +154,8 @@ wss://*.nhutserver.com/*
 ws://*.nhutserver.com/*
 wss://*.nhserve1.com/*
 ws://*.nhserve1.com/*
+wss://*.nhdec12.tk/*
+ws://*.nhdec12.tk/*
 wss://*.directprimal.com/*
 ws://*.directprimal.com/*
 wss://*.coinwebmining.com/*
