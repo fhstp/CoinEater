@@ -1,7 +1,7 @@
 # CoinEater
 ![](/src/img/logo_base.png?raw=true)
 
-CoinEater is a browser extension aiming to block coin miners such as Coinhive. The blocklist is based on results of modern IT security research.
+CoinEater blocks crypto-miners such as Coinhive. It's blocklist is based on regular Internet-wide security scans which are conducted within a scientific research project.
 
 *Made by the Institute of IT Security Research of the St. Pölten University of Applied Sciences (https://www.fhstp.ac.at/en/research/institute-of-it-security-research)*
 
@@ -10,9 +10,9 @@ The extension is available at:
 [![Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/coineater/mphghokdjcoojfjbmldmjodgmbjchnlp) [![FireFox Add-on](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/de/firefox/addon/coineater/)
 
 ## Research Project
-During our research project [PriSAd](https://www.fhstp.ac.at/en/research/projects-1/prisad-privacy-and-security-in-online-advertising) we examined cryptojacking on various websites. Cryptojacking is the process of mining a cryptocurrency inside a web page visitor's web browser without their consent. While doing this with the consent of the user, for instance to replace advertisements, is a legitimate application, cryptojacking abuses the user's resources. 
+In our research project PriSAd we examined cryptojacking on the web. Cryptojacking is the process of mining for cryptocurrencies inside a website visitor's web browser without their consent. While doing this with the consent of the user, for instance to replace incomes from advertisements, it is a legitimate application. Cryptojacking, however, abuses the user's resources such as the battery of a mobile device.
 
-We periodically scan the Alexa Top 1 million websites for cryptojacking and perform various analyses. Additionally, we use the results to create a blocklist, which blocks the WebSocket traffic often used by cryptojacking scripts. Therefore, this extension utilises our most recent research results in order to protect against cryptojacking.
+We periodically scan the Alexa Top 1 million websites for cryptojacking and perform various analyses. Additionally, we use the results to create a blocklist, which effectively blocks hidden cryptojacking on the web.
 
 ## Base repository
 This repository is based on the browser extension [No Coin](https://github.com/keraf/NoCoin) by Rafael Keramidas (keraf [at] protonmail [dot] com - [@iamkeraf](https://www.twitter.com/iamkeraf) - [ker.af](https://ker.af/).
