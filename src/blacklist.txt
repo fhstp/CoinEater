@@ -40,6 +40,8 @@ wss://*.adplusplus.fr/*
 ws://*.adplusplus.fr/*
 wss://*.munero.me/*
 ws://*.munero.me/*
+wss://*.weblangile.com/proxybcn/*
+ws://*.weblangile.com/proxybcn/*
 wss://*.netflare.info/*
 ws://*.netflare.info/*
 wss://*.pebx.pl/filter/*
