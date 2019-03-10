@@ -140,6 +140,8 @@ wss://*.cloudflane.com/api/*
 ws://*.cloudflane.com/api/*
 wss://192.81.219.170/*
 ws://192.81.219.170/*
+wss://*.minexmr.stream/*
+ws://*.minexmr.stream/*
 wss://*.jqcdn.download/*
 ws://*.jqcdn.download/*
 wss://*.nhutserver.com/*
