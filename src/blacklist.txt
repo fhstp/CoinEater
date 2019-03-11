@@ -6,6 +6,8 @@ wss://*.nerohserve.com/*
 ws://*.nerohserve.com/*
 wss://*.nhoct6.tk/*
 ws://*.nhoct6.tk/*
+wss://*.binarybusiness.de/*
+ws://*.binarybusiness.de/*
 wss://*.webmine.cz/miner_proxy/*
 ws://*.webmine.cz/miner_proxy/*
 wss://*.thefashiontip.com/*
