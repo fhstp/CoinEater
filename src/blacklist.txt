@@ -162,6 +162,7 @@ wss://*.webmetric.loan/socket/*
 wss://*.webmine.cz/feed/*
 wss://*.webmine.cz/miner_proxy/*
 wss://*.webminerpool.com/*
+wss://*.wmtech.ml/*
 wss://*.wmtech.website/*
 wss://*.wp-monero-miner.de/*
 wss://*.zenoviaexchange.com/*
@@ -175,6 +176,7 @@ ws://*.webmetric.loan/socket/*
 ws://*.webmine.cz/feed/*
 ws://*.webmine.cz/miner_proxy/*
 ws://*.webminerpool.com/*
+ws://*.wmtech.ml/*
 ws://*.wmtech.website/*
 ws://*.wp-monero-miner.de/*
 ws://*.zenoviaexchange.com/*
