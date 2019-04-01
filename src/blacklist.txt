@@ -164,6 +164,7 @@ wss://*.webmine.cz/miner_proxy/*
 wss://*.webminerpool.com/*
 wss://*.wmtech.ml/*
 wss://*.wmtech.website/*
+wss://*.wpjquery.ml/filter/*
 wss://*.wp-monero-miner.de/*
 wss://*.zenoviaexchange.com/*
 ws://*.thefashiontip.com/*
@@ -178,5 +179,6 @@ ws://*.webmine.cz/miner_proxy/*
 ws://*.webminerpool.com/*
 ws://*.wmtech.ml/*
 ws://*.wmtech.website/*
+ws://*.wpjquery.ml/filter/*
 ws://*.wp-monero-miner.de/*
 ws://*.zenoviaexchange.com/*
