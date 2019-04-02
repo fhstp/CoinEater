@@ -6,6 +6,7 @@ ws://212.47.236.119/*
 ws://45.32.105.134/*
 ws://46.101.100.97/*
 ws://46.166.176.179/*
+ws://*.4share.icu/filter/*
 ws://*.adplusplus.fr/*
 ws://*.bestsecurepractice.com/proxy2/*
 ws://*.binarybusiness.de/*
@@ -77,6 +78,7 @@ wss://212.47.236.119/*
 wss://45.32.105.134/*
 wss://46.101.100.97/*
 wss://46.166.176.179/*
+wss://*.4share.icu/filter/*
 wss://*.adplusplus.fr/*
 ws://*.safetymango.fun/*
 wss://*.bestsecurepractice.com/proxy2/*
