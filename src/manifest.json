@@ -1,7 +1,7 @@
 {
     "name": "CoinEater",
     "description": "CoinEater protects you against the threat of cryptojacking.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "permissions": [
         "activeTab",
         "tabs",
