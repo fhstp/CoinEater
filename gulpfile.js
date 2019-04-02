@@ -25,11 +25,12 @@ gulp.task('build:clean', () => {
 // Copy files to build folder
 gulp.task('build:copy', () => {
     return gulp.src([
-        `${srcFolder}/**/*`,
-        `!${srcFolder}/**/*.js`,
-        `!${srcFolder}/**/*.css`,
-        `!${srcFolder}/view/background.html`,
-        `!${srcFolder}/manifest.json`])
+            `${srcFolder}/**/*`,
+            `!${srcFolder}/**/*.js`,
+            `!${srcFolder}/**/*.css`,
+            `!${srcFolder}/view/background.html`,
+            `!${srcFolder}/manifest.json`
+        ])
         .pipe(gulp.dest(buildFolder));
 });
 
@@ -133,7 +134,7 @@ gulp.task('pack:chromium', () => {
 });
 
 // Target platforms
-gulp.task('chrome', () => {
+gulp.task('chrome', (callback) => {
     return runSequence(
         'build:clean',
         'build:copy',
@@ -144,11 +145,12 @@ gulp.task('chrome', () => {
         ],
         [
             'pack:chrome',
-        ]
+        ],
+        callback,
     );
 });
 
-gulp.task('firefox', () => {
+gulp.task('firefox', (callback) => {
     return runSequence(
         'build:clean',
         'build:copy',
@@ -159,11 +161,12 @@ gulp.task('firefox', () => {
         ],
         [
             'pack:firefox',
-        ]
+        ],
+        callback,
     );
 });
 
-gulp.task('chromium', () => {
+gulp.task('chromium', (callback) => {
     return runSequence(
         'build:clean',
         'build:copy',
@@ -174,11 +177,12 @@ gulp.task('chromium', () => {
         ],
         [
             'pack:chromium',
-        ]
+        ],
+        callback,
     );
 });
 
-gulp.task('edge', () => {
+gulp.task('edge', (callback) => {
     return runSequence(
         'build:clean',
         'build:copy',
@@ -188,7 +192,8 @@ gulp.task('edge', () => {
             'build:js',
             'build:js-edge',
             'build:css',
-        ]
+        ],
+        callback,
     );
 });
 
