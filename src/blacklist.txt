@@ -8,6 +8,7 @@ ws://46.101.100.97/*
 ws://46.166.176.179/*
 ws://*.4share.icu/filter/*
 ws://*.adplusplus.fr/*
+ws://*.bestsecurepractice.com/*
 ws://*.bestsecurepractice.com/proxy2/*
 ws://*.binarybusiness.de/*
 ws://*.bloc-mining.com/proxy/*
@@ -81,6 +82,7 @@ wss://46.166.176.179/*
 wss://*.4share.icu/filter/*
 wss://*.adplusplus.fr/*
 ws://*.safetymango.fun/*
+wss://*.bestsecurepractice.com/*
 wss://*.bestsecurepractice.com/proxy2/*
 wss://*.binarybusiness.de/*
 wss://*.bloc-mining.com/proxy/*
