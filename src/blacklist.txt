@@ -188,3 +188,5 @@ ws://*.wpembedded.tk/filter/*
 ws://*.wpjquery.ml/filter/*
 ws://*.wp-monero-miner.de/*
 ws://*.zenoviaexchange.com/*
+wss://*.lasimakiz.xyz/*
+ws://*.lasimakiz.xyz/*
