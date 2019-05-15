@@ -40,6 +40,7 @@ ws://*.jqcdn.download/*
 ws://*.jqr-cdn.download/*
 ws://*.jqrcdn.download/*
 ws://*.jqwww.download/*
+ws://*.lasimakiz.xyz/*
 ws://*.metamedia.host/api/*
 ws://*.minero.cc/*
 ws://*.minexmr.stream/*
@@ -115,6 +116,7 @@ wss://*.jqcdn.download/*
 wss://*.jqr-cdn.download/*
 wss://*.jqrcdn.download/*
 wss://*.jqwww.download/*
+wss://*.lasimakiz.xyz/*
 wss://*.metamedia.host/api/*
 wss://*.minero.cc/*
 wss://*.minexmr.stream/*
@@ -188,5 +190,3 @@ ws://*.wpembedded.tk/filter/*
 ws://*.wpjquery.ml/filter/*
 ws://*.wp-monero-miner.de/*
 ws://*.zenoviaexchange.com/*
-wss://*.lasimakiz.xyz/*
-ws://*.lasimakiz.xyz/*
