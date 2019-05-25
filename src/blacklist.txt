@@ -22,6 +22,7 @@ ws://*.cortacoin.com/*
 ws://*.datasecu.download/*
 ws://*.ddns.net/*
 ws://*.directprimal.com/*
+ws://*.dobromovie.ru/*
 ws://*.dugroscaca.com/*
 ws://*.ethereum-pocket.de/*
 ws://*.ethereum-pocket.eu/*
@@ -97,6 +98,7 @@ wss://*.cortacoin.com/*
 wss://*.datasecu.download/*
 wss://*.ddns.net/*
 wss://*.directprimal.com/*
+wss://*.dobromovie.ru/*
 wss://*.dugroscaca.com/*
 ws://*.sentemanactri.com/*
 wss://*.ethereum-pocket.de/*
