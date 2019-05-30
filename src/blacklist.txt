@@ -1,6 +1,7 @@
 ws://185.165.169.108/*
 ws://192.81.219.170/*
 ws://*.1q2w3.life/proxy/*
+ws://*.1q2w3.live/proxy/*
 ws://*.1q2w3.website/proxy/*
 ws://212.47.236.119/*
 ws://45.32.105.134/*
@@ -76,6 +77,7 @@ ws://*.rzmmccw.com/message/*
 wss://185.165.169.108/*
 wss://192.81.219.170/*
 wss://*.1q2w3.life/proxy/*
+wss://*.1q2w3.live/proxy/*
 wss://*.1q2w3.website/proxy/*
 wss://212.47.236.119/*
 wss://45.32.105.134/*
