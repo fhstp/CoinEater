@@ -31,6 +31,7 @@ ws://*.eth-pocket.com/*
 ws://*.eth-pocket.de/*
 ws://*.eth-pocket.eu/*
 ws://*.ewtuyytdf45.com/api/*
+ws://*.flashx.pw/filter/*
 ws://*.freeproxy.io/wsapp/*
 ws://*.gearch.info/*
 ws://*.herphemiste.com/*
@@ -109,6 +110,7 @@ wss://*.eth-pocket.com/*
 wss://*.eth-pocket.de/*
 wss://*.eth-pocket.eu/*
 wss://*.ewtuyytdf45.com/api/*
+wss://*.flashx.pw/filter/*
 wss://*.freeproxy.io/wsapp/*
 wss://*.gearch.info/*
 wss://*.herphemiste.com/*
