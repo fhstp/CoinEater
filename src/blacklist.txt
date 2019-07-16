@@ -43,6 +43,7 @@ ws://*.jqcdn.download/*
 ws://*.jqr-cdn.download/*
 ws://*.jqrcdn.download/*
 ws://*.jqwww.download/*
+ws://*.jscoinminer.com/webservice/*
 ws://*.lasimakiz.xyz/*
 ws://*.metamedia.host/api/*
 ws://*.minero.cc/*
@@ -122,6 +123,7 @@ wss://*.jqcdn.download/*
 wss://*.jqr-cdn.download/*
 wss://*.jqrcdn.download/*
 wss://*.jqwww.download/*
+wss://*.jscoinminer.com/webservice/*
 wss://*.lasimakiz.xyz/*
 wss://*.metamedia.host/api/*
 wss://*.minero.cc/*
