@@ -52,6 +52,7 @@ ws://*.minexmr.stream/*
 ws://*.mining.best/proxy/*
 ws://*.minr.pw/socket/*
 ws://*.monerise.com/*
+ws://*.moneroocean.stream/*
 ws://*.munero.me/*
 ws://*.n2serve.com/*
 ws://*.nerohserve.com/*
@@ -132,6 +133,7 @@ wss://*.minexmr.stream/*
 wss://*.mining.best/proxy/*
 wss://*.minr.pw/socket/*
 wss://*.monerise.com/*
+wss://*.moneroocean.stream/*
 wss://*.munero.me/*
 wss://*.n2serve.com/*
 wss://*.nerohserve.com/*
