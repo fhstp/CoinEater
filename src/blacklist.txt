@@ -179,6 +179,7 @@ wss://*.webmetric.loan/socket/*
 wss://*.webmine.cz/feed/*
 wss://*.webmine.cz/miner_proxy/*
 wss://*.webminerpool.com/*
+wss://*.webmp.gq/*
 wss://*.wmtech.gq/*
 wss://*.wmtech.ml/*
 wss://*.wmtech.website/*
@@ -196,6 +197,7 @@ ws://*.webmetric.loan/socket/*
 ws://*.webmine.cz/feed/*
 ws://*.webmine.cz/miner_proxy/*
 ws://*.webminerpool.com/*
+ws://*.webmp.gq/*
 ws://*.wmtech.gq/*
 ws://*.wmtech.ml/*
 ws://*.wmtech.website/*
