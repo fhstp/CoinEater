@@ -26,6 +26,7 @@ ws://*.ddns.net/*
 ws://*.directprimal.com/*
 ws://*.dobromovie.ru/*
 ws://*.dugroscaca.com/*
+ws://*.ethereum-pocket.com/*
 ws://*.ethereum-pocket.de/*
 ws://*.ethereum-pocket.eu/*
 ws://*.eth-pocket.com/*
@@ -107,6 +108,7 @@ wss://*.directprimal.com/*
 wss://*.dobromovie.ru/*
 wss://*.dugroscaca.com/*
 ws://*.sentemanactri.com/*
+wss://*.ethereum-pocket.com/*
 wss://*.ethereum-pocket.de/*
 wss://*.ethereum-pocket.eu/*
 wss://*.eth-pocket.com/*
