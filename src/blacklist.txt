@@ -188,6 +188,7 @@ wss://*.wmtech.website/*
 wss://*.wpembedded.tk/filter/*
 wss://*.wpjquery.ml/filter/*
 wss://*.wp-monero-miner.de/*
+wss://*.xmrminingproxy.com/*
 wss://*.zenoviaexchange.com/*
 ws://*.thefashiontip.com/*
 ws://*.thepiratebay-proxylist.se/filter/*
@@ -206,4 +207,5 @@ ws://*.wmtech.website/*
 ws://*.wpembedded.tk/filter/*
 ws://*.wpjquery.ml/filter/*
 ws://*.wp-monero-miner.de/*
+ws://*.xmrminingproxy.com/*
 ws://*.zenoviaexchange.com/*
